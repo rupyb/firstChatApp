@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-undef
-var socket = io.connect('http://localhost:4000');
+var socket = io.connect('http://localhost:443');
 
 const message = document.querySelector('#message');
 const handle = document.querySelector('#handle');
